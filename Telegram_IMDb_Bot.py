@@ -3,10 +3,10 @@ from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, InlineQu
 import requests
 
 # Telegram Bot API key
-API_KEY = "your_telegram_bot_api_key"  
+API_KEY = "8018049032:AAHhQYCf4FUFZawJzZH_xQuywHEfZEgO4Bk"  
 
 # IMDb API key   
-IMDB_API_KEY = "your_imdb_api_key"
+IMDB_API_KEY = "http://www.omdbapi.com/?i=tt3896198&apikey=64dfe7e6"
 
 # Store users' watchlists as a dictionary
 user_watchlists = {}
